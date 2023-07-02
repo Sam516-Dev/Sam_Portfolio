@@ -12,7 +12,7 @@ function Body() {
       </p>
       <p className="text-primary-blue text-sm max-w-lg mt-12">
         I am an enthusiastic UI/UX Designer & Developer with a strong skill set
-        encompassing UI/UX design, graphic design, and front-end development. My
+        encompassing UI/UX design, graphic design, and front-end development. <br/> My
         expertise lies in creating extraordinary experiences through the
         implementation of innovative projects
       </p>
@@ -26,7 +26,7 @@ function Body() {
         </button>
       </div>
       <div>
-        
+
       </div>
     </div>
   );
