@@ -14,7 +14,6 @@ function About() {
           <div class="flip-container">
             <div class="zoom-container">
               <img src={image} alt="image" class="zoom-image" />
-              {/* <div class="gradient-overlay"></div> */}
             </div>
           </div>
         </div>
@@ -22,12 +21,14 @@ function About() {
         <div className="flex flex-1 p-6 ml-4 rounded-md  space-x-6 border border-blue-300 bg-blue-200">
           <div className="flex flex-col justify-between">
             <p className="text-primary-blue flex text-base font-medium  max-w-lg  ">
-              I have a deep passion for UI/UX design, graphic design, and<br />
-              front-end development. My name is Samuel, and I thrive on  <br />the
-              intersection of creativity and technology. With a background<br /> in
-              Computer Science   and a strong foundation in UI/UX design<br />
-              and graphic design principles, I bring a unique blend of
-              artistic vision and technical expertise to my work
+              I have a deep passion for UI/UX design, graphic design, and
+              <br />
+              front-end development. My name is Samuel, and I thrive on <br />
+              the intersection of creativity and technology. With a background
+              <br /> in Computer Science and a strong foundation in UI/UX design
+              <br />
+              and graphic design principles, I bring a unique blend of artistic
+              vision and technical expertise to my work
             </p>
             <button className="flex py-3 px-4 w-48 items-center hover:bg-blue-600 justify-center bg-tex bg-bluemine rounded-full text-white text-base font-semibold">
               Download CV

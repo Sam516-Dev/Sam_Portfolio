@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
- import samlogo from "../assets/samlogo.PNG";
-
-
+import samlogo from "../assets/samlogo.PNG";
 
 const Navbar = () => {
   // Add state to handle the mobile menu
@@ -17,7 +15,6 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between pt-8 pb-4 border-b mx-10 border-blue-500">
       <div className="flex items-center">
-        {/* <img src={samlogo} alt="Logo" className="h-20 absolute " /> */}
         <h1 className="ml-2 text-primary-blue white font-semibold">
           Sam@Design
         </h1>
