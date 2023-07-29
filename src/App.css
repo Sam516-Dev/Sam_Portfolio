@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom CSS for zooming the image */
+
 /* Custom CSS for zooming the image */
 .zoom-container {
   width: 400%;
