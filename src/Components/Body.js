@@ -5,7 +5,7 @@ function Body() {
   return (
     <div className="ml-2  px-8 relative">
       <div className=" z-20">
-        <h1 className="text-4xl font-bold text-bluemine pt-10 md:pt-20">
+        <h1 className="text-4xl  font-bold text-bluemine pt-10 md:pt-20">
           Hello, I'm
         </h1>
         <h1 className="text-6xl font-extrabold text-primary-blue pt-4 md:pt-6">
