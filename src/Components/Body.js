@@ -35,13 +35,21 @@ function Body() {
             Portfolio
           </button>
         </div>
-        <div className=" md:absolute md:top-16 md:right-1 flex justify-center object-cover mt-4 z-10 bg-blue-200 px-24 rounded-md">
+        {/* <div className=" md:absolute md:top-16 md:right-1 flex justify-center items-center object-cover mt-4 z-10 bg-blue-200 px-24 mr-8 rounded-md">
           <img
             src={image}
             alt="image"
-            className="h-64 w-full md:h-96 object-cover transform scale-x-[-1]"
+            className="h-64  md:h-96 bg-green-400 object-cover transform scale-x-[-1]"
           />
-        </div>
+        </div> */}
+        <div className="md:absolute md:top-16 md:right-1 flex justify-center items-center object-cover mt-4 z-10 bg-blue-200 px-4 md:px-24 mr-8 rounded-md">
+  <img
+    src={image}
+    alt="image"
+    className="h-64 w-full  md:h-96 object-cover transform scale-x-[-1]"
+  />
+</div>
+
       </div>
     </div>
   );
