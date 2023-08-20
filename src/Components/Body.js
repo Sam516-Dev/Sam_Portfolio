@@ -1,14 +1,19 @@
+
+
+
+
+
 import React from "react";
 import image from "../assets/image.png";
 
 function Body() {
   return (
     <div className="ml-2  px-8 relative">
-      <div className=" z-20">
-        <h1 className="text-4xl  font-bold text-bluemine pt-10 md:pt-20">
+      <div className=" md:z-50">
+        <h1 className="text-4xl  font-bold  text-bluemine pt-10 md:pt-20">
           Hello, I'm
         </h1>
-        <h1 className="text-6xl font-extrabold text-primary-blue pt-4 md:pt-6">
+        <h1 className="text-5xl font-extrabold text-primary-blue pt-4 md:pt-6">
           SAMUEL NJOROGE
         </h1>
         <p className="text-bluemine -mt-1 text-base font-semibold">
@@ -30,11 +35,11 @@ function Body() {
             Portfolio
           </button>
         </div>
-        <div className=" md:absolute md:top-16 md:right-12 flex justify-center object-cover mt-4 p-2 z-10 border border bg-blue-200 px-24 rounded-md">
+        <div className=" md:absolute md:top-16 md:right-1 flex justify-center object-cover mt-4 z-10 bg-blue-200 px-24 rounded-md">
           <img
             src={image}
             alt="image"
-            className="h-64 md:h-96 max-w-full transform scale-x-[-1]"
+            className="h-64 w-full md:h-96 object-cover transform scale-x-[-1]"
           />
         </div>
       </div>
